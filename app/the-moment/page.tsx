@@ -25,7 +25,7 @@ export default function TheMoment() {
         </p>
 
         {/* Closing Line */}
-        <p className="text-h2 font-canela font-medium text-balance">
+        <p className="text-h2 font-canela font-medium text-balance quote-block">
           The question is not whether the old order will change, but who will 
           shape what replaces it.
         </p>

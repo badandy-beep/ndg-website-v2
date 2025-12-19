@@ -15,20 +15,19 @@ export default function Engagement() {
           Engagement
         </h1>
         
-        <p className="text-body text-ndg-subtle leading-relaxed mb-12">
+        <p className="text-body text-ndg-subtle leading-relaxed mb-8">
           Noetic Dharma Group works with a limited number of principals, 
           institutions, and enterprises aligned with our values and positioned 
-          for the emerging era. Engagement is by introduction. Inquiries are 
-          received. Decisions are ours.
+          for the emerging era.
         </p>
 
-        {/* Contact */}
-        <a 
-          href="mailto:info@noeticdharma.com"
-          className="text-body text-ndg-bone hover:text-ndg-subtle transition-colors duration-300"
-        >
-          info@noeticdharma.com
-        </a>
+        <p className="text-body text-ndg-subtle leading-relaxed mb-8">
+          Engagement is by introduction only.
+        </p>
+
+        <p className="text-body text-ndg-subtle leading-relaxed">
+          If you have been referred, your introducer will provide the appropriate channel.
+        </p>
       </Section>
     </div>
   );

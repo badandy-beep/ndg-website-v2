@@ -1,43 +1,48 @@
-NDG WEBSITE FIXES - COMPLETE PACKAGE
-=====================================
-Created: 2024-Dec-19
+NDG WEBSITE - FINAL LAYOUT TUNING
+==================================
+Created: 2025-Dec-19
 
-WHAT'S INCLUDED
----------------
-1. components/Hero.tsx 
-   - FIX: Changed object-position to "50% 15%" (top-biased)
-   - This keeps Socrates' head and halo visible at all breakpoints
+ALL FIXES INCLUDED
+------------------
 
-2. app/the-method/page.tsx
-   - FIX: Removed rounded-sm from Socrates image
-   - Per spec: no decorative UI treatments
+1. HERO IMAGE (components/Hero.tsx)
+   - object-position: 50% 15% (top-biased)
+   - Socrates' head and halo now always visible
 
-3. app/layout.tsx
-   - FIX: Added favicon metadata
+2. SECTION PADDING REDUCED (app/globals.css)
+   - Mobile: 64px → 48px
+   - Tablet: 84px → 64px  
+   - Desktop: 120px → 80px
+   - Less excessive scrolling
 
-4. public/ (5 favicon files)
-   - favicon.ico
-   - favicon-16x16.png
-   - favicon-32x32.png
-   - favicon-48x48.png
-   - apple-touch-icon.png
+3. QUOTE BLOCKS BIASED HIGHER (app/globals.css)
+   - Added .quote-block utility class
+   - Applied to large closing statements
+
+4. EMAIL REMOVED (app/engagement/page.tsx)
+   - Replaced with referral-only language
+   - "If you have been referred, your introducer will provide the appropriate channel."
+
+5. ROUNDED CORNERS REMOVED (app/the-method/page.tsx)
+   - Socrates image has no decorative treatment
+
+6. FAVICONS ADDED (public/)
+   - favicon.ico, favicon-16x16.png, favicon-32x32.png
+   - favicon-48x48.png, apple-touch-icon.png
+   - Metadata added to app/layout.tsx
 
 HOW TO APPLY
 ------------
 Replace these files in your GitHub repo:
 
-1. components/Hero.tsx → replace existing
-2. app/the-method/page.tsx → replace existing
-3. app/layout.tsx → replace existing
-4. public/*.png and public/*.ico → add to public folder
+app/globals.css
+app/layout.tsx
+app/the-moment/page.tsx
+app/engagement/page.tsx
+app/the-method/page.tsx
+components/Hero.tsx
+public/ (all favicon files)
 
-Then commit and push. Vercel will auto-deploy.
-
-VERIFICATION CHECKLIST
-----------------------
-[ ] Hero shows Socrates' head and golden halo
-[ ] Method page image has no rounded corners
-[ ] Favicon shows "NDG" in browser tab
-[ ] Apple touch icon works on iOS
+Commit and push. Vercel auto-deploys.
 
 © 2025 Noetic Dharma Group, LLC
