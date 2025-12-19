@@ -35,13 +35,13 @@ export default function TheMethod() {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16 items-center">
           {/* Image - First on mobile */}
           <div className="order-1 lg:order-2">
-            <div className="relative aspect-square max-w-md mx-auto lg:max-w-none">
+            <div className="max-h-[320px] md:max-h-[420px] overflow-hidden">
               <Image
                 src="/images/ndg-method-socrates-contemplative.png"
                 alt="Socrates contemplating with cosmic starfield"
-                fill
-                className="object-cover"
-                sizes="(max-width: 768px) 92vw, 40vw"
+                width={800}
+                height={800}
+                className="object-cover object-center w-full h-full"
               />
             </div>
           </div>

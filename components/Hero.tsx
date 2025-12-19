@@ -42,7 +42,7 @@ export default function Hero() {
   }, [reducedMotion]);
 
   return (
-    <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
+    <section className="relative min-h-[100vh] pt-[88px] flex items-center justify-center overflow-hidden">
       {/* Background Image */}
       <div className="absolute inset-0">
         <Image
@@ -51,7 +51,7 @@ export default function Hero() {
           fill
           priority
           className="object-cover object-top"
-          style={{ objectPosition: "50% 15%" }}
+          style={{ objectFit: "cover", objectPosition: "50% 10%" }}
           sizes="100vw"
         />
         {/* Overlay - stronger on mobile */}

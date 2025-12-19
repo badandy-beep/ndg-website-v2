@@ -1,0 +1,53 @@
+NDG WEBSITE - FINAL EXECUTION PACKAGE
+======================================
+Project: NDG (Noetic Dharma Group)
+Created: 2025-Dec-19
+Version: FINAL (Launch-Ready)
+
+EXACT SPECIFICATIONS IMPLEMENTED
+--------------------------------
+
+1. HERO IMAGE (components/Hero.tsx)
+   - objectPosition: "50% 10%"
+   - Container: min-h-[100vh] pt-[88px]
+   - Head and halo always visible
+
+2. GLOBAL SPACING (app/globals.css)
+   - Mobile: py-16 (4rem)
+   - Tablet: py-20 (5rem)
+   - Desktop: py-24 (6rem)
+
+3. QUOTE BLOCKS (app/globals.css)
+   - flex items-start pt-24 md:pt-32
+
+4. METHOD PAGE IMAGE (app/the-method/page.tsx)
+   - max-h-[320px] md:max-h-[420px] overflow-hidden
+   - object-cover object-center w-full h-full
+
+5. CONTACT (app/engagement/page.tsx)
+   - Email removed
+   - Referral-only language
+
+6. FAVICONS (public/)
+   - favicon.ico
+   - favicon-16x16.png
+   - favicon-32x32.png
+   - favicon-48x48.png
+   - apple-touch-icon.png
+
+FILES TO REPLACE
+----------------
+app/globals.css
+app/layout.tsx
+app/the-moment/page.tsx
+app/the-method/page.tsx
+app/engagement/page.tsx
+components/Hero.tsx
+public/ (all favicon files)
+
+DO NOT CHANGE
+-------------
+Typography, copy, image selection, navigation.
+
+© 2025 Noetic Dharma Group, LLC
+CONFIDENTIAL & PROPRIETARY

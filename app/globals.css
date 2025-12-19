@@ -80,28 +80,35 @@ a {
     max-width: 760px;
   }
   
-  /* Large quote blocks - bias slightly higher in viewport */
+  /* Large quote blocks - top-biased positioning */
   .quote-block {
-    margin-top: -0.5em;
-    padding-top: 0.25em;
+    display: flex;
+    align-items: flex-start;
+    padding-top: 6rem;  /* pt-24 */
+  }
+  
+  @media (min-width: 768px) {
+    .quote-block {
+      padding-top: 8rem;  /* md:pt-32 */
+    }
   }
   
   .section-padding {
-    padding-top: 48px;
-    padding-bottom: 48px;
+    padding-top: 4rem;    /* py-16 */
+    padding-bottom: 4rem;
   }
   
   @media (min-width: 768px) {
     .section-padding {
-      padding-top: 64px;
-      padding-bottom: 64px;
+      padding-top: 5rem;  /* py-20 */
+      padding-bottom: 5rem;
     }
   }
   
   @media (min-width: 1024px) {
     .section-padding {
-      padding-top: 80px;
-      padding-bottom: 80px;
+      padding-top: 6rem;  /* py-24 */
+      padding-bottom: 6rem;
     }
   }
 }
