@@ -1,53 +1,83 @@
-NDG WEBSITE - FINAL EXECUTION PACKAGE
-======================================
-Project: NDG (Noetic Dharma Group)
-Created: 2025-Dec-19
+NOETIC DHARMA GROUP - WEBSITE
+==============================
+Project: NDG
 Version: FINAL (Launch-Ready)
+Created: 2025-Dec-19
 
-EXACT SPECIFICATIONS IMPLEMENTED
---------------------------------
+COMPLETE PROJECT - READY FOR GITHUB + VERCEL
+----------------------------------------------
 
-1. HERO IMAGE (components/Hero.tsx)
-   - objectPosition: "50% 10%"
-   - Container: min-h-[100vh] pt-[88px]
-   - Head and halo always visible
+WHAT'S INCLUDED (ALL FIXES APPLIED)
+-----------------------------------
 
-2. GLOBAL SPACING (app/globals.css)
-   - Mobile: py-16 (4rem)
-   - Tablet: py-20 (5rem)
-   - Desktop: py-24 (6rem)
+HERO IMAGE (components/Hero.tsx)
+- objectPosition: "50% 10%"
+- Container: min-h-[100vh] pt-[88px]
+- Socrates head/halo always visible
 
-3. QUOTE BLOCKS (app/globals.css)
-   - flex items-start pt-24 md:pt-32
+SPACING (app/globals.css)
+- Mobile: py-16 (4rem)
+- Tablet: py-20 (5rem)
+- Desktop: py-24 (6rem)
 
-4. METHOD PAGE IMAGE (app/the-method/page.tsx)
-   - max-h-[320px] md:max-h-[420px] overflow-hidden
-   - object-cover object-center w-full h-full
+THE WAY PAGE (app/the-way/page.tsx)
+- New approved copy (verbatim)
+- "Certain elements are intentionally absent"
+- No performative language
 
-5. CONTACT (app/engagement/page.tsx)
-   - Email removed
-   - Referral-only language
+ENGAGEMENT PAGE (app/engagement/page.tsx)
+- No email address
+- Referral-only language
 
-6. FAVICONS (public/)
-   - favicon.ico
-   - favicon-16x16.png
-   - favicon-32x32.png
-   - favicon-48x48.png
-   - apple-touch-icon.png
+METHOD PAGE (app/the-method/page.tsx)
+- No rounded corners
+- Constrained image container
 
-FILES TO REPLACE
-----------------
-app/globals.css
-app/layout.tsx
-app/the-moment/page.tsx
-app/the-method/page.tsx
-app/engagement/page.tsx
-components/Hero.tsx
-public/ (all favicon files)
+FAVICONS (public/)
+- favicon.ico
+- favicon-16x16.png
+- favicon-32x32.png
+- favicon-48x48.png
+- apple-touch-icon.png
 
-DO NOT CHANGE
--------------
-Typography, copy, image selection, navigation.
+FONTS (public/fonts/)
+- Canela-Regular.woff2
+- Canela-Medium.woff2
+- Canela-Semibold.woff2
+
+IMAGES (public/images/)
+- ndg-hero-socrates-cosmic.png
+- ndg-method-socrates-contemplative.png
+- ndg-closing-socrates-approval.png
+
+DEPLOYMENT INSTRUCTIONS
+-----------------------
+
+1. Unzip this package
+2. Push to GitHub:
+   cd ndg-website-final
+   git init
+   git add .
+   git commit -m "NDG Website - Final"
+   git remote add origin https://github.com/badandy-beep/ndg-website-v2.git
+   git branch -M main
+   git push -u origin main --force
+
+3. Import to Vercel:
+   - Go to vercel.com
+   - Add New Project
+   - Import ndg-website-v2
+   - Deploy
+
+CLIENT ACCESS CODES
+-------------------
+MAHA-972028
+USAX-687173
+WEBUILT-398960
+WARROOM-482177
+GARY-535231
+EMBLEM-146236
+NIKOLAELECTRIC-411400
 
 © 2025 Noetic Dharma Group, LLC
 CONFIDENTIAL & PROPRIETARY
