@@ -40,7 +40,7 @@ export default function TheMethod() {
                 src="/images/ndg-method-socrates-contemplative.png"
                 alt="Socrates contemplating with cosmic starfield"
                 fill
-                className="object-cover rounded-sm"
+                className="object-cover"
                 sizes="(max-width: 768px) 92vw, 40vw"
               />
             </div>

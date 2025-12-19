@@ -50,7 +50,8 @@ export default function Hero() {
           alt="Socrates sculpture with cosmic halo motif"
           fill
           priority
-          className="object-cover object-center"
+          className="object-cover object-top"
+          style={{ objectPosition: "50% 15%" }}
           sizes="100vw"
         />
         {/* Overlay - stronger on mobile */}

@@ -7,6 +7,14 @@ import LayoutWrapper from "@/components/LayoutWrapper";
 export const metadata: Metadata = {
   title: "Noetic Dharma Group — Wisdom for an Unstable Age",
   description: "Operating at the intersection of capital, technology, and disciplined wisdom during periods of civilizational transition.",
+  icons: {
+    icon: [
+      { url: "/favicon-16x16.png", sizes: "16x16", type: "image/png" },
+      { url: "/favicon-32x32.png", sizes: "32x32", type: "image/png" },
+      { url: "/favicon-48x48.png", sizes: "48x48", type: "image/png" },
+    ],
+    apple: "/apple-touch-icon.png",
+  },
   openGraph: {
     title: "Noetic Dharma Group — Wisdom for an Unstable Age",
     description: "Operating at the intersection of capital, technology, and disciplined wisdom during periods of civilizational transition.",

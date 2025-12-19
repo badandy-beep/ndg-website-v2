@@ -1,0 +1,43 @@
+NDG WEBSITE FIXES - COMPLETE PACKAGE
+=====================================
+Created: 2024-Dec-19
+
+WHAT'S INCLUDED
+---------------
+1. components/Hero.tsx 
+   - FIX: Changed object-position to "50% 15%" (top-biased)
+   - This keeps Socrates' head and halo visible at all breakpoints
+
+2. app/the-method/page.tsx
+   - FIX: Removed rounded-sm from Socrates image
+   - Per spec: no decorative UI treatments
+
+3. app/layout.tsx
+   - FIX: Added favicon metadata
+
+4. public/ (5 favicon files)
+   - favicon.ico
+   - favicon-16x16.png
+   - favicon-32x32.png
+   - favicon-48x48.png
+   - apple-touch-icon.png
+
+HOW TO APPLY
+------------
+Replace these files in your GitHub repo:
+
+1. components/Hero.tsx → replace existing
+2. app/the-method/page.tsx → replace existing
+3. app/layout.tsx → replace existing
+4. public/*.png and public/*.ico → add to public folder
+
+Then commit and push. Vercel will auto-deploy.
+
+VERIFICATION CHECKLIST
+----------------------
+[ ] Hero shows Socrates' head and golden halo
+[ ] Method page image has no rounded corners
+[ ] Favicon shows "NDG" in browser tab
+[ ] Apple touch icon works on iOS
+
+© 2025 Noetic Dharma Group, LLC
